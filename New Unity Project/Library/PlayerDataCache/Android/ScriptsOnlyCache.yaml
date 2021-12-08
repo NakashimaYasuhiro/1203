@@ -2,6 +2,7 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - BallJump
+    - Player
     - UnityTemplateProjects.SimpleCameraController
     - touch3
     Unity.RenderPipelines.Core.Runtime.dll:
@@ -111,101 +112,103 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1596}
     - Class: 114
-      Script: {instanceID: 1608}
+      Script: {instanceID: 1606}
     - Class: 114
-      Script: {instanceID: 1660}
+      Script: {instanceID: 1658}
     - Class: 114
-      Script: {instanceID: 1824}
+      Script: {instanceID: 1822}
     - Class: 114
-      Script: {instanceID: 1852}
+      Script: {instanceID: 1850}
     - Class: 114
-      Script: {instanceID: 1942}
+      Script: {instanceID: 1940}
     - Class: 114
-      Script: {instanceID: 1974}
+      Script: {instanceID: 1972}
     - Class: 114
-      Script: {instanceID: 2064}
+      Script: {instanceID: 2062}
+    - Class: 114
+      Script: {instanceID: 2400}
     - Class: 114
       Script: {instanceID: 2402}
     - Class: 114
-      Script: {instanceID: 2404}
+      Script: {instanceID: 2428}
     - Class: 114
-      Script: {instanceID: 2430}
+      Script: {instanceID: 2756}
     - Class: 114
-      Script: {instanceID: 2758}
+      Script: {instanceID: 2870}
     - Class: 114
-      Script: {instanceID: 2872}
+      Script: {instanceID: 2902}
     - Class: 114
-      Script: {instanceID: 2904}
+      Script: {instanceID: 3050}
     - Class: 114
-      Script: {instanceID: 3052}
+      Script: {instanceID: 3252}
     - Class: 114
-      Script: {instanceID: 3254}
+      Script: {instanceID: 3312}
     - Class: 114
-      Script: {instanceID: 3314}
+      Script: {instanceID: 3450}
     - Class: 114
-      Script: {instanceID: 3452}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 3460}
+      Script: {instanceID: 3612}
     - Class: 114
-      Script: {instanceID: 3614}
+      Script: {instanceID: 3682}
     - Class: 114
-      Script: {instanceID: 3684}
+      Script: {instanceID: 3740}
     - Class: 114
-      Script: {instanceID: 3742}
+      Script: {instanceID: 3882}
     - Class: 114
       Script: {instanceID: 3884}
     - Class: 114
-      Script: {instanceID: 3886}
+      Script: {instanceID: 4028}
     - Class: 114
-      Script: {instanceID: 4030}
+      Script: {instanceID: 4050}
     - Class: 114
-      Script: {instanceID: 4052}
+      Script: {instanceID: 4144}
     - Class: 114
-      Script: {instanceID: 4146}
+      Script: {instanceID: 4240}
     - Class: 114
-      Script: {instanceID: 4242}
+      Script: {instanceID: 4270}
     - Class: 114
-      Script: {instanceID: 4272}
+      Script: {instanceID: 4308}
     - Class: 114
-      Script: {instanceID: 4310}
+      Script: {instanceID: 4400}
     - Class: 114
-      Script: {instanceID: 4402}
+      Script: {instanceID: 4404}
     - Class: 114
-      Script: {instanceID: 4406}
+      Script: {instanceID: 4478}
     - Class: 114
-      Script: {instanceID: 4480}
+      Script: {instanceID: 4514}
     - Class: 114
-      Script: {instanceID: 4516}
+      Script: {instanceID: 4592}
     - Class: 114
-      Script: {instanceID: 4594}
+      Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 4770}
+      Script: {instanceID: 4894}
     - Class: 114
-      Script: {instanceID: 4896}
+      Script: {instanceID: 5244}
     - Class: 114
-      Script: {instanceID: 5246}
+      Script: {instanceID: 5422}
     - Class: 114
-      Script: {instanceID: 5424}
+      Script: {instanceID: 5474}
     - Class: 114
-      Script: {instanceID: 5476}
+      Script: {instanceID: 5510}
     - Class: 114
-      Script: {instanceID: 5512}
+      Script: {instanceID: 5536}
     - Class: 114
-      Script: {instanceID: 5538}
+      Script: {instanceID: 5676}
     - Class: 114
-      Script: {instanceID: 5678}
+      Script: {instanceID: 5904}
     - Class: 114
-      Script: {instanceID: 5906}
+      Script: {instanceID: 5952}
     - Class: 114
-      Script: {instanceID: 5954}
+      Script: {instanceID: 6180}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 6278}
     - Class: 114
       Script: {instanceID: 6284}
     - Class: 114
       Script: {instanceID: 6348}
     - Class: 114
-      Script: {instanceID: 20042}
+      Script: {instanceID: 18774}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1021,6 +1024,12 @@ ScriptsOnlyBuild:
     className: Volume
   - hash:
       serializedVersion: 2
+      Hash: 9428b01680152b307be2d5ea57a3436d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BallJump
+  - hash:
+      serializedVersion: 2
       Hash: 08705cef837f5d18a4c86b19b1ccf347
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Rendering.Universal
@@ -1069,11 +1078,11 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
-      Hash: 9428b01680152b307be2d5ea57a3436d
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: BallJump
+    className: Player
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/12071732apk.apk"
+  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/12081532apk.apk"
