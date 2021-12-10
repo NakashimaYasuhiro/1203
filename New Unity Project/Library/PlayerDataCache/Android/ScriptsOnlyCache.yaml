@@ -182,33 +182,33 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4768}
     - Class: 114
-      Script: {instanceID: 4894}
+      Script: {instanceID: 4786}
     - Class: 114
-      Script: {instanceID: 5244}
+      Script: {instanceID: 4896}
     - Class: 114
-      Script: {instanceID: 5422}
+      Script: {instanceID: 5246}
     - Class: 114
-      Script: {instanceID: 5474}
+      Script: {instanceID: 5424}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5476}
     - Class: 114
-      Script: {instanceID: 5536}
+      Script: {instanceID: 5512}
     - Class: 114
-      Script: {instanceID: 5676}
+      Script: {instanceID: 5538}
     - Class: 114
-      Script: {instanceID: 5904}
+      Script: {instanceID: 5678}
     - Class: 114
-      Script: {instanceID: 5952}
+      Script: {instanceID: 5906}
     - Class: 114
-      Script: {instanceID: 6180}
+      Script: {instanceID: 5954}
     - Class: 114
-      Script: {instanceID: 6278}
+      Script: {instanceID: 6182}
     - Class: 114
-      Script: {instanceID: 6284}
+      Script: {instanceID: 6280}
     - Class: 114
-      Script: {instanceID: 6348}
+      Script: {instanceID: 6286}
     - Class: 114
-      Script: {instanceID: 18774}
+      Script: {instanceID: 6350}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -814,6 +814,12 @@ ScriptsOnlyBuild:
     className: AudioPlayableAsset
   - hash:
       serializedVersion: 2
+      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Player
+  - hash:
+      serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
@@ -1076,13 +1082,7 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: TouchInputModule
-  - hash:
-      serializedVersion: 2
-      Hash: afc5b93a7b192de2dcb3832fe35a5c7e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: Player
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/12081532apk.apk"
+  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/12081208apk.apk"
