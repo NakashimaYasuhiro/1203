@@ -14,9 +14,10 @@ public class Rotation : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.Space)) {
-            transform.Rotate(new Vector3(0, 5, 0));
-                }
+        if (Input.GetKey(KeyCode.T))
+        {
+            transform.Rotate(0,50 * Time.deltaTime,0);
+        }
 
     }
 }

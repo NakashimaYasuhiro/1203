@@ -1,10 +1,15 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp-firstpass.dll:
+    - UnityStandardAssets.Characters.FirstPerson.FirstPersonController
     Assembly-CSharp.dll:
     - BallJump
+    - Buttonright
     - FixedJoystick
     - Main
     - Player
+    - PlayerScript
+    - Rotation
     - UnityTemplateProjects.SimpleCameraController
     - joystickMobile
     - touch3
@@ -123,6 +128,8 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1706}
     - Class: 114
+      Script: {instanceID: 1842}
+    - Class: 114
       Script: {instanceID: 1874}
     - Class: 114
       Script: {instanceID: 1904}
@@ -179,47 +186,53 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4474}
     - Class: 114
-      Script: {instanceID: 4576}
+      Script: {instanceID: 4564}
     - Class: 114
-      Script: {instanceID: 4580}
+      Script: {instanceID: 4578}
     - Class: 114
-      Script: {instanceID: 4654}
+      Script: {instanceID: 4582}
     - Class: 114
-      Script: {instanceID: 4694}
+      Script: {instanceID: 4656}
     - Class: 114
-      Script: {instanceID: 4774}
+      Script: {instanceID: 4696}
     - Class: 114
-      Script: {instanceID: 4956}
+      Script: {instanceID: 4776}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 4958}
     - Class: 114
-      Script: {instanceID: 5092}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 5470}
+      Script: {instanceID: 5094}
     - Class: 114
-      Script: {instanceID: 5652}
+      Script: {instanceID: 5472}
     - Class: 114
-      Script: {instanceID: 5708}
+      Script: {instanceID: 5654}
     - Class: 114
-      Script: {instanceID: 5744}
+      Script: {instanceID: 5710}
     - Class: 114
-      Script: {instanceID: 5774}
+      Script: {instanceID: 5746}
     - Class: 114
-      Script: {instanceID: 5916}
+      Script: {instanceID: 5776}
     - Class: 114
-      Script: {instanceID: 6010}
+      Script: {instanceID: 5918}
     - Class: 114
-      Script: {instanceID: 6154}
+      Script: {instanceID: 6012}
     - Class: 114
-      Script: {instanceID: 6204}
+      Script: {instanceID: 6156}
     - Class: 114
-      Script: {instanceID: 6444}
+      Script: {instanceID: 6206}
     - Class: 114
-      Script: {instanceID: 6542}
+      Script: {instanceID: 6446}
     - Class: 114
-      Script: {instanceID: 6548}
+      Script: {instanceID: 6504}
     - Class: 114
-      Script: {instanceID: 6640}
+      Script: {instanceID: 6546}
+    - Class: 114
+      Script: {instanceID: 6552}
+    - Class: 114
+      Script: {instanceID: 6644}
+    - Class: 114
+      Script: {instanceID: 22444}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
@@ -1081,6 +1094,12 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
+      Hash: f490597a4ccb3e3c39e748e565f9e8a7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerScript
+  - hash:
+      serializedVersion: 2
       Hash: 39a1af780851540205de944aa74817a6
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Vehicles.Car
@@ -1585,6 +1604,12 @@ ScriptsOnlyBuild:
     className: Volume
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotation
+  - hash:
+      serializedVersion: 2
       Hash: 9428b01680152b307be2d5ea57a3436d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
@@ -1697,7 +1722,13 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: FPSCounter
+  - hash:
+      serializedVersion: 2
+      Hash: a798ba6af6041d9c36796be116abb208
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Buttonright
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/apkfolder/1215apk.apk"
+  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/apkfolder/1217apk.apk"
