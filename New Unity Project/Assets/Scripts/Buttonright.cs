@@ -9,7 +9,7 @@ public class Buttonright : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        button.SetActive(false);
+       // button.SetActive(false);
 
         //Sphereオブジェクトを格納
         ball = GameObject.Find("Cube(Rotate)");
@@ -18,16 +18,13 @@ public class Buttonright : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "button")
+       // if (other.gameObject.tag == "button")
         {
             button.SetActive(true);
         }
     }
     //SphereのY座標を5にする
-    public void BallUp()
-    {
-        ball.transform.Rotate(0,50,0);
-    }
+    public void BallUp() => ball.transform.Rotate(0, 50, 0);
 
     // Update is called once per frame
     void Update()

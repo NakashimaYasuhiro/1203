@@ -4,6 +4,25 @@ using UnityEngine;
 
 public class Rotation : MonoBehaviour
 {
+
+    public void ボタンまとめ(string スイッチ)
+    {
+        switch(スイッチ)
+        {
+            case "A":
+
+                Debug.Log("Aがおされた");
+                break;
+
+            case "B":
+                Debug.Log("Bがおされた");
+                break;
+        }
+    }
+
+
+
+
     // Start is called before the first frame update
     void Start()
     {
@@ -14,10 +33,7 @@ public class Rotation : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKey(KeyCode.T))
-        {
-            transform.Rotate(0,50 * Time.deltaTime,0);
-        }
+
 
     }
 }

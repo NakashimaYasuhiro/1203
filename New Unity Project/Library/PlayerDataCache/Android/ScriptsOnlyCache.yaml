@@ -8,8 +8,8 @@ ScriptsOnlyBuild:
     - FixedJoystick
     - Main
     - Player
-    - PlayerScript
     - Rotation
+    - Switch
     - UnityTemplateProjects.SimpleCameraController
     - joystickMobile
     - touch3
@@ -154,39 +154,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 3014}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 3168}
     - Class: 114
-      Script: {instanceID: 3372}
+      Script: {instanceID: 3374}
     - Class: 114
-      Script: {instanceID: 3440}
-    - Class: 114
-      Script: {instanceID: 3580}
+      Script: {instanceID: 3442}
     - Class: 114
       Script: {instanceID: 3582}
     - Class: 114
-      Script: {instanceID: 3590}
+      Script: {instanceID: 3584}
     - Class: 114
-      Script: {instanceID: 3754}
+      Script: {instanceID: 3592}
     - Class: 114
-      Script: {instanceID: 3824}
+      Script: {instanceID: 3756}
     - Class: 114
-      Script: {instanceID: 3886}
+      Script: {instanceID: 3826}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 3888}
     - Class: 114
-      Script: {instanceID: 4180}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 4202}
+      Script: {instanceID: 4182}
     - Class: 114
-      Script: {instanceID: 4298}
+      Script: {instanceID: 4204}
     - Class: 114
-      Script: {instanceID: 4398}
+      Script: {instanceID: 4300}
     - Class: 114
-      Script: {instanceID: 4430}
+      Script: {instanceID: 4400}
     - Class: 114
-      Script: {instanceID: 4474}
+      Script: {instanceID: 4432}
     - Class: 114
-      Script: {instanceID: 4564}
+      Script: {instanceID: 4476}
     - Class: 114
       Script: {instanceID: 4578}
     - Class: 114
@@ -198,46 +196,50 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 4776}
     - Class: 114
+      Script: {instanceID: 4952}
+    - Class: 114
       Script: {instanceID: 4958}
     - Class: 114
-      Script: {instanceID: 4986}
+      Script: {instanceID: 4988}
     - Class: 114
-      Script: {instanceID: 5094}
+      Script: {instanceID: 5096}
     - Class: 114
-      Script: {instanceID: 5472}
+      Script: {instanceID: 5474}
     - Class: 114
-      Script: {instanceID: 5654}
+      Script: {instanceID: 5656}
     - Class: 114
-      Script: {instanceID: 5710}
+      Script: {instanceID: 5712}
     - Class: 114
-      Script: {instanceID: 5746}
+      Script: {instanceID: 5748}
     - Class: 114
-      Script: {instanceID: 5776}
+      Script: {instanceID: 5778}
     - Class: 114
-      Script: {instanceID: 5918}
+      Script: {instanceID: 5920}
     - Class: 114
-      Script: {instanceID: 6012}
+      Script: {instanceID: 6014}
     - Class: 114
-      Script: {instanceID: 6156}
+      Script: {instanceID: 6158}
     - Class: 114
-      Script: {instanceID: 6206}
+      Script: {instanceID: 6208}
     - Class: 114
-      Script: {instanceID: 6446}
+      Script: {instanceID: 6448}
     - Class: 114
-      Script: {instanceID: 6504}
+      Script: {instanceID: 6506}
     - Class: 114
-      Script: {instanceID: 6546}
+      Script: {instanceID: 6548}
     - Class: 114
-      Script: {instanceID: 6552}
+      Script: {instanceID: 6554}
     - Class: 114
-      Script: {instanceID: 6644}
+      Script: {instanceID: 6646}
     - Class: 114
-      Script: {instanceID: 22444}
+      Script: {instanceID: 30474}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 124
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 143
       Script: {instanceID: 0}
@@ -680,6 +682,12 @@ ScriptsOnlyBuild:
     className: DebugUIHandlerGroup
   - hash:
       serializedVersion: 2
+      Hash: a798ba6af6041d9c36796be116abb208
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Buttonleft
+  - hash:
+      serializedVersion: 2
       Hash: 5f170942ee57c7a568f5bcfc7521adea
     assemblyName: UnityEngine.TestRunner.dll
     namespaceName: UnityEngine.TestTools
@@ -1094,12 +1102,6 @@ ScriptsOnlyBuild:
     className: Outline
   - hash:
       serializedVersion: 2
-      Hash: f490597a4ccb3e3c39e748e565f9e8a7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: PlayerScript
-  - hash:
-      serializedVersion: 2
       Hash: 39a1af780851540205de944aa74817a6
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Vehicles.Car
@@ -1206,6 +1208,12 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp-firstpass.dll
     namespaceName: UnityStandardAssets.Utility
     className: FollowTarget
+  - hash:
+      serializedVersion: 2
+      Hash: a798ba6af6041d9c36796be116abb208
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Buttonright
   - hash:
       serializedVersion: 2
       Hash: 5e1eefcd5106de6c2e85908a3b2d3f04
@@ -1724,11 +1732,11 @@ ScriptsOnlyBuild:
     className: FPSCounter
   - hash:
       serializedVersion: 2
-      Hash: a798ba6af6041d9c36796be116abb208
+      Hash: af8f7d7f81af9f326b265b903416ea20
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Buttonright
+    className: Switch
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: "C:/Users/n0905/OneDrive/\u30C7\u30B9\u30AF\u30C8\u30C3\u30D7/apkfolder/1217apk.apk"
+  playerPath: "G:/\u30DE\u30A4\u30C9\u30E9\u30A4\u30D6/apkfolder/1219apk.apk"

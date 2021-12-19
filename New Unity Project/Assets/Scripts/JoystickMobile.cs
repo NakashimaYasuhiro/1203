@@ -15,7 +15,7 @@ public class joystickMobile : MonoBehaviour
 
     private void Update()
     {
-        Vector3 velocity = gameObject.transform.rotation * new Vector3(joystick.Horizontal * 4.5f, 0, joystick.Vertical * 4.5f);
+        Vector3 velocity = gameObject.transform.rotation * new Vector3(joystick.Horizontal * 1.5f, 0, joystick.Vertical * 1.5f);
         gameObject.transform.position += velocity * Time.deltaTime;
     }
 }
